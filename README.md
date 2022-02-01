@@ -1,4 +1,4 @@
-#Naive stock prediction in Dash
+# Naive stock prediction in Dash
 
 This project purpose is to learn Dash and its components by making a simple dashboard with naive future stock price prediction. The data is automatically scraped from the URL site www.stooq.pl and the basic informations are scraped from the Google Finance site. There is possiblity to choose between the companies from WIG20 Warsaw Stock Exchange. The prediction of the future price is made by naive average model from the last 3 days prices. Furthermore there is implemented an additional RandomForest algorithm for making prediction if the price of stock will go up in the next day or no.
 
